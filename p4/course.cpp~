@@ -1,0 +1,150 @@
+#include "course.h"
+
+
+
+
+
+
+
+
+
+void Course::addStudent(const char SID[12])
+{
+char copySID[12];
+strcpy(copySID,SID);
+char *ptr;
+char str[20];
+int ssid;
+ptr= strtok(copySID,"-");
+strcpy(str,ptr);
+ptr = strtok(NULL,"-");
+strcat(str,ptr);
+ptr = strtok(NULL,"-");
+     strcat(str,ptr);
+   
+
+ssid= atoi(str);
+    
+   Student temp(ssid);
+
+roster.insert(temp);
+
+
+
+} // addStudent()
+
+
+void Course::updatestudent(const char SID[12], assignment &a){
+
+char copySID[12];
+strcpy(copySID,SID);
+char *ptr;
+char str[20];
+int ssid;
+ptr= strtok(copySID,"-");
+strcpy(str,  ptr);
+ptr = strtok(NULL,"-");
+strcat(str,ptr);
+ptr = strtok(NULL,"-");
+     strcat(str,ptr);
+   
+
+ssid= atoi(str);
+    
+   Student temp(ssid);
+
+
+
+
+
+temp = (roster.find(temp));
+roster.remove(temp);
+
+temp.setgrade(a);
+roster.insert(temp);
+
+}
+
+void Course::removeStudent(const char SID[12]){
+
+
+char copySID[12];
+strcpy(copySID,SID);
+char *ptr;
+char str[20];
+int ssid;
+ptr= strtok(copySID,"-");
+strcpy(str, ptr);
+ptr = strtok(NULL,"-");
+strcat(str,ptr);
+ptr = strtok(NULL,"-");
+     strcat(str,ptr);
+   
+
+ssid= atoi(str);
+Student temp(ssid);
+
+
+
+
+
+roster.remove(temp); 
+
+
+}//remove student
+
+const Student Course::findStudent(const char SID[12]){
+
+
+char copySID[12];
+strcpy(copySID,SID);
+char *ptr;
+char str[20];
+int ssid;
+ptr= strtok(copySID,"-");
+strcpy(str, ptr);
+ptr = strtok(NULL,"-");
+strcat(str,ptr);
+ptr = strtok(NULL,"-");
+     strcat(str,ptr);
+   
+   
+
+ssid= atoi(str);
+Student temp(ssid);
+
+
+
+
+
+roster.find(temp); 
+
+
+}
+
+
+
+
+
+void Course::addAssignment(assignment &ass)
+{
+
+
+int i =0;
+while(i<25 && (maxgrades[i]).getgrade()  !=0)
+i++;
+
+
+maxgrades[i] = ass;
+
+}
+
+
+
+
+
+
+
+
+
+

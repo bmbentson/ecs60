@@ -1,0 +1,53 @@
+
+#include "Student.h"
+#include "assignment.h"
+#include "string.h"
+
+
+
+
+
+
+Student::Student(int num){id=num;}
+
+
+
+bool Student::operator< (const Student &rhs)const  { 
+	return id<rhs.id;
+}
+
+
+void Student::addgrade(assignment &grade)
+{
+
+int i =0;
+while(i<25 && assgrades[i].getgrade() != 0)
+i++;
+
+
+assgrades[i] = grade;
+}
+
+
+void Student::setgrade(assignment &grade){
+int i=0;
+
+while(i<25 && (strcmp(assgrades[i].getname(),grade.getname()) !=0) ) 
+i++;
+
+assgrades[i] = grade;
+
+}
+
+
+ assignment Student::getgrade(grade){
+int i=0;
+
+while(i<25 && (strcmp(assgrades[i].getname(),grade.getname()) !=0) ) 
+i++;
+
+return assgrades[i];
+
+}
+
+

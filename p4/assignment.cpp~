@@ -1,0 +1,34 @@
+#include "assignment.h"
+#include "string.h"
+
+assignment::assignment( const char n[], short max){
+strcpy(name,n);
+grade = max;
+
+}
+
+
+char* assignment::getname(){
+return name;
+}
+
+ short assignment::getgrade() const {
+return grade;
+}
+
+void assignment::setgrade(short value){
+grade = value;
+
+}
+
+
+const assignment assignment::operator=(rhs) const{
+assignment lhs(rhs.name, rhs.grade);
+
+return lhs;
+}
+
+
+
+
+

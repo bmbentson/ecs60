@@ -1,0 +1,5 @@
+#  On your local computer, open a terminal window using an X Windows terminal client. Type 'xhost + hostname' where hostname is the domain name or IP address of the remote computer you want to connect to. For example, 'xhost + pc35.cs.ucdavis.edu or xhost + 169.237.10.100'.
+# Obtain the IP address of your local computer (or domain name). Note, if you are using DSL behind a router, you probably want to provide the IP address of your router, not your local computer. Also, make sure that port 6000 is forwarded properly as mentioned above.
+# Connect to the remote computer you will be using with SSH or rlogin (if you're already using a CSIF computer).
+# On the remote computer, type the command 'setenv DISPLAY hostname:0.0' where hostname is your local computer's (or router's) domain name or IP address.
+# If all went well, you should now be able to open remote programs. To test it, try typing 'xclock &' or 'xlogo &' on the terminal window you have connected to the remote computer with. This should open the graphical display on your local computer. Make sure you're typing into the correct sessi

@@ -1,0 +1,118 @@
+City,Country,Latitude,Direction,Longitude,Direction
+Aberdeen,Scotland,57,N,2,W
+Adelaide,Australia,34,S,138,E
+Algiers,Algeria,36,N,3,E
+Amsterdam,Netherlands,52,N,4,E
+Ankara,Turkey,39,N,32,E
+Asuncion,Paraguay,25,S,57,W
+Athens,Greece,37,N,23,E
+Auckland,New Zealand,36,S,174,E
+Bangkok,Thailand,13,N,100,E
+Barcelona,Spain,41,N,2,E
+Beijing,China,39,N,116,E
+Belem,Brazil,1,S,48,W
+Belfast,Northern Ireland,54,N,5,W
+Belgrade,Yugoslavia,44,N,20,E
+Berlin,Germany,52,N,13,E
+Birmingham,England,52,N,1,W
+Bogota,Colombia,4,N,74,W
+Bombay,India,19,N,72,E
+Bordeaux,France,44,N,0,W
+Bremen,Germany,53,N,8,E
+Brisbane,Australia,27,S,153,E
+Bristol,England,51,N,2,W
+Brussels,Belgium,50,N,4,E
+Bucharest,Romania,44,N,26,E
+Budapest,Hungary,47,N,19,E
+Buenos Aires,Argentina,34,S,58,W
+Cairo,Egypt,30,N,31,E
+Calcutta,India,22,N,88,E
+Canton,China,23,N,113,E
+Cape Town,South Africa,33,S,18,E
+Caracas,Venezuela,10,N,67,W
+Cayenne,French Guiana,4,N,52,W
+Chihuahua,Mexico,28,N,106,W
+Chongqing,China,29,N,106,E
+Copenhagen,Denmark,55,N,12,E
+Cordoba,Argentina,31,S,64,W
+Dakar,Senegal,14,N,17,W
+Darwin,Australia,12,S,130,E
+Djibouti,Djibouti,11,N,43,E
+Dublin,Ireland,53,N,6,W
+Durban,South Africa,29,S,30,E
+Edinburgh,Scotland,55,N,3,W
+Frankfurt,Germany,50,N,8,E
+Georgetown,Guyana,6,N,58,W
+Glasgow,Scotland,55,N,4,W
+Guatemala City,Guatemala,14,N,90,W
+Guayaquil,Ecuador,2,S,79,W
+Hamburg,Germany,53,N,10,E
+Hammerfest,Norway,70,N,23,E
+Havana,Cuba,23,N,82,W
+Helsinki,Finland,60,N,25,E
+Hobart,Tasmania,42,S,147,E
+Iquique,Chile,20,S,70,W
+Irkutsk,Russia,52,N,104,E
+Jakarta,Indonesia,6,S,106,E
+Johannesburg,South Africa,26,S,28,E
+Kingston,Jamaica,17,N,76,W
+Kinshasa,Congo,4,S,15,E
+La Paz,Bolivia,16,S,68,W
+Leeds,England,53,N,1,W
+Lima,Peru,12,S,77,W
+Lisbon,Portugal,38,N,9,W
+Liverpool,England,53,N,3,W
+London,England,51,N,0,W
+Lyons,France,45,N,4,E
+Madrid,Spain,40,N,3,W
+Manchester,England,53,N,2,W
+Manila,Philippines,14,N,120,E
+Marseilles,France,43,N,5,E
+Mazatlan,Mexico,23,N,106,W
+Mecca,Saudi Arabia,21,N,39,E
+Melbourne,Australia,37,S,144,E
+Mexico City,Mexico,19,N,99,W
+Milan,Italy,45,N,9,E
+Montevideo,Uruguay,34,S,56,W
+Moscow,Russia,55,N,37,E
+Munich,Germany,48,N,11,E
+Nagasaki,Japan,32,N,129,E
+Nagoya,Japan,35,N,136,E
+Nairobi,Kenya,1,S,36,E
+Nanjing (Nanking),China,32,N,118,E
+Naples,Italy,40,N,14,E
+Newcastle-on-Tyne,England,54,N,1,W
+Odessa,Ukraine,46,N,30,E
+Osaka,Japan,34,N,135,E
+Oslo,Norway,59,N,10,E
+Panama City,Panama,8,N,79,W
+Paramaribo,Suriname,5,N,55,W
+Paris,France,48,N,2,E
+Perth,Australia,31,S,115,E
+Plymouth,England,50,N,4,W
+Port Moresby,Papua New Guinea,9,S,147,E
+Prague,Czech Republic,50,N,14,E
+Rangoon,Myanmar,16,N,96,E
+Reykjavik,Iceland,64,N,21,W
+Rio de Janeiro,Brazil,22,S,43,W
+Rome,Italy,41,N,12,E
+Salvador,Brazil,12,S,38,W
+Santiago,Chile,33,S,70,W
+St. Petersburg,Russia,59,N,30,E
+Sao Paulo,Brazil,23,S,46,W
+Shanghai,China,31,N,121,E
+Singapore,Singapore,1,N,103,E
+Sofia,Bulgaria,42,N,23,E
+Stockholm,Sweden,59,N,18,E
+Sydney,Australia,34,S,151,E
+Tananarive,Madagascar,18,S,47,E
+Teheran,Iran,35,N,51,E
+Tokyo,Japan,35,N,139,E
+Tripoli,Libya,32,N,13,E
+Venice,Italy,45,N,12,E
+Veracruz,Mexico,19,N,96,W
+Vienna,Austria,48,N,16,E
+Vladivostok,Russia,43,N,132,E
+Warsaw,Poland,52,N,21,E
+Wellington,New Zealand,41,S,174,E
+Zurich,Switzerland,47,N,8,E

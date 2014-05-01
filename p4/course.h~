@@ -1,0 +1,62 @@
+#ifndef course_H
+#define course_H
+
+#include "BinarySearchTree.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "assignment.h"
+#include "Student.h"
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        class Course
+        {
+	
+	
+		
+          public:
+	BinarySearchTree<Student> roster;
+	assignment maxgrades[25];
+	
+	int crn;
+	
+            Course(int c=0 ):roster(Student ()){crn =c;}
+            
+       void addStudent(const char SID[12]);
+	void updatestudent(const char SID[12], assignment &a);
+	void removeStudent(const char SID[12]);
+	const Student findStudent(const char SID[12]);
+	void addAssignment(assignment &ass);
+	bool operator!=( const Course &rhs){	return crn != rhs.crn;}
+
+
+	
+
+	
+		
+            
+        
+           };
+
+
+
+
+#endif
+
+
+
+
+
+
+

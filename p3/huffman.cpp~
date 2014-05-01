@@ -1,0 +1,34 @@
+// Brian Bentson Matt Sheehan
+#include "city.h"
+
+class Charh
+{
+  char letter;
+  int count;
+  
+public:
+  CharH(char N = '', int C = 0):letter(N), count(C){}
+  string& GetName(){return Name;}
+  int GetLat() {return latitude;}
+  char GetLatDirection(){return LatDirection;}
+  int GetLong(){return longitude;}
+  char GetLongDirection(){return LongDirection;}
+  bool operator< (const City &rhs)const  { return Name < rhs.Name;}
+  float operator- (const City &rhs);
+  friend ostream& operator<< (ostream &out, City &rhs);
+};
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+

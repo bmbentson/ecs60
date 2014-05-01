@@ -1,0 +1,11 @@
+RunWire.out: RunWire.o StreetSelector.o
+	g++ -Wall -ansi -g -o RunWire.out RunWire.o StreetSelector.o 
+
+RunWire.o: RunWire.cpp StreetSelector.h RunWire.h CPUTimer.h 
+	g++ -Wall -ansi -g -c RunWire.cpp
+
+StreetSelector.o: StreetSelector.cpp StreetSelector.h RunWire.h  QuadraticProbing.h BinaryHeap.h
+	g++ -Wall -ansi -g -c StreetSelector.cpp
+
+clean:
+	rm -f RunWire.out RunWire.o StreetSelector.o 

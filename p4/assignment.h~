@@ -1,0 +1,26 @@
+#ifndef assignment_H
+#define assignment_H
+
+
+
+class assignment{
+public:
+
+short grade;
+char name[80];
+
+assignment( const char n*, short max=-1);
+
+
+char* getname();
+
+ short getgrade() const ;
+
+void setgrade(short value=0);
+
+
+const assignment operator=(const assignment &rhs) const;
+
+};
+
+#endif

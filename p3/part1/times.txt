@@ -1,0 +1,141 @@
+Brian Bentson
+ECS60
+2/7/09
+
+File1.dat
+
+1.  LinkedList 0.07
+2.  CursorList 0.05
+3.  StackAr 0.04
+4.  StackLi 0.07
+5.  QueueAr 0.05
+6.  Skip List 0.18
+7.  Binary Search Tree FAIL
+8.  AVL Tree 0.25
+9.  Splay Tree 0.08
+10a BTree M=3 L=1 0.18
+10b BTree M=3 L=200 0.17
+10c BTree M=1000 L=2 0.86
+10d BTree M=1000 L=200 0.37
+11a Separate Chaining Hash tablesize=250000 0.1
+11b Separate Chaining Hash tablesize= 125000  0.1
+11c Separate Chaining Hash tablesize=12500 0.09
+11d Separate Chaining Hash tablesize = 1250 0.18
+11e Separate Chaining Hash tablesize =125 1.51
+12a Quadratic Probing Hash tablesize= 62500 0.09
+12b Quadratic Probing Hash tablesize=125000 0.08
+12c Quadratic Probing Hash tablesize=250000 0.07
+12d Quadratic Probing Hash tablesize=500000 0.05
+12e Quadratic Probing Hash tablesize=1250000 0.06
+13. Binary Heap 0.04
+14a Quadratic Probing Pointer Hash tablesize= 62500 0.1
+14b Quadratic Probing Pointer Hash tablesize=125000 0.09
+14c Quadratic Probing Pointer Hash  tablesize=250000 0.05
+14d Quadratic Probing Pointer Hash tablesize=500000 0.08
+14e Quadratic Probing Pointer Hash tablesize=1250000 0.09
+
+
+
+
+
+File2.dat
+
+
+
+1.  LinkedList 85.8
+2.  CursorList FAIL
+3.  StackAr 0.09
+4.  StackLi 0.12
+5.  QueueAr .11
+6.  Skip List .26
+7.  Binary Search Tree FAIL
+8.  AVL Tree .33
+9.  Splay Tree .14
+10a BTree M=3 L=1 .53
+10b BTree M=3 L=200 .65
+10c BTree M=1000 L=2 2.48
+10d BTree M=1000 L=200 .77
+11a Separate Chaining Hash tablesize=250000 .18
+11b Separate Chaining Hash tablesize= 125000  .18
+11c Separate Chaining Hash tablesize=12500 .2
+11d Separate Chaining Hash tablesize = 1250 1.32
+11e Separate Chaining Hash tablesize =125 10.65
+12a Quadratic Probing Hash tablesize= 62500.16
+12b Quadratic Probing Hash tablesize=125000 .15
+12c Quadratic Probing Hash tablesize=250000 .12
+12d Quadratic Probing Hash tablesize=500000 .12
+12e Quadratic Probing Hash tablesize=1250000 .13
+13. Binary Heap .21
+14a Quadratic Probing Pointer Hash tablesize= 62500 .2
+14b Quadratic Probing Pointer Hash tablesize=125000 .2
+14c Quadratic Probing Pointer Hash  tablesize=250000 .17
+14d Quadratic Probing Pointer Hash tablesize=500000 .17
+14e Quadratic Probing Pointer Hash tablesize=1250000 .19
+
+
+File3.dat
+
+
+1.  LinkedList 0.05
+2.  CursorList 0.07
+3.  StackAr 0.04
+4.  StackLi 0.05
+5.  QueueAr 0.05
+6.  Skip List 0.15
+7.  Binary Search Tree FAIL
+8.  AVL Tree 0.34
+9.  Splay Tree 0.06
+10a BTree M=3 L=1  0.16
+10b BTree M=3 L=200 0.25
+10c BTree M=1000 L=2 0.81
+10d BTree M=1000 L=200 0.43
+11a Separate Chaining Hash tablesize=250000 0.08
+11b Separate Chaining Hash tablesize= 125000  0.09
+11c Separate Chaining Hash tablesize=12500 0.07
+11d Separate Chaining Hash tablesize = 1250 0.15
+11e Separate Chaining Hash tablesize =125 1.28
+12a Quadratic Probing Hash tablesize= 62500 0.08
+12b Quadratic Probing Hash tablesize=125000 0.06
+12c Quadratic Probing Hash tablesize=250000 0.05
+12d Quadratic Probing Hash tablesize=500000 0.04
+12e Quadratic Probing Hash tablesize=1250000 0.05
+13. Binary Heap 0.1
+14a Quadratic Probing Pointer Hash tablesize= 62500 0.08
+14b Quadratic Probing Pointer Hash tablesize=125000 0.08
+14c Quadratic Probing Pointer Hash  tablesize=250000 0.07
+14d Quadratic Probing Pointer Hash tablesize=500000 0.08
+14e Quadratic Probing Pointer Hash tablesize=1250000 0.08
+
+File4.dat
+
+
+1.  LinkedList 76.24
+2.  CursorList FAIL
+3.  StackAr .1
+4.  StackLi .12
+5.  QueueAr .1
+6.  Skip List .79
+7.  Binary Search Tree .46
+8.  AVL Tree .91
+9.  Splay Tree .68
+10a BTree M=3 L=1 .96
+10b BTree M=3 L=200 .78
+10c BTree M=1000 L=2 2.49
+10d BTree M=1000 L=200 .86
+11a Separate Chaining Hash tablesize=250000 .3
+11b Separate Chaining Hash tablesize= 125000  .34
+11c Separate Chaining Hash tablesize=12500 .44
+11d Separate Chaining Hash tablesize = 1250 1.83
+11e Separate Chaining Hash tablesize =125 15.37
+12a Quadratic Probing Hash tablesize= 62500 .2
+12b Quadratic Probing Hash tablesize=125000 .18
+12c Quadratic Probing Hash tablesize=250000 .15
+12d Quadratic Probing Hash tablesize=500000 .15
+12e Quadratic Probing Hash tablesize=1250000 .15
+13. Binary Heap .22
+14a Quadratic Probing Pointer Hash tablesize= 62500 .29
+14b Quadratic Probing Pointer Hash tablesize=125000 .28
+14c Quadratic Probing Pointer Hash  tablesize=250000 .24
+14d Quadratic Probing Pointer Hash tablesize=500000 .24
+14e Quadratic Probing Pointer Hash tablesize=1250000 .27
+

@@ -1,0 +1,30 @@
+#ifndef Student_H
+#define Student_H
+#include "assignment.h"
+
+
+
+class Student
+{
+public:
+int id;
+assignment assgrades[25];
+
+Student(int num=0);
+
+
+
+bool operator< (const Student &rhs)const ;
+
+void addgrade(assignment &grade);
+
+
+void setgrade(assignment &grade);
+
+
+const assignment getgrade(assignment &grade);
+
+};
+
+
+#endif

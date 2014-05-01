@@ -1,0 +1,127 @@
+#include "gradebook.h"
+#include "course.h"
+#include "assignment.h"
+
+
+
+
+
+void GradeBook::addAssignment(int CRN, const char *title, int maxScore)
+{
+assignment temp(title, (short)maxScore);
+Course tempcourse(CRN);
+
+
+(list.find(tempcourse)).addAssignment(temp);
+
+
+
+
+} // addAssignment()
+
+
+void GradeBook::addCourse(int CRN)
+{
+Course temp(CRN);
+
+list.insert(temp);
+} // addCourse()
+
+
+void GradeBook::addStudent(int CRN, const char SID[12])
+{
+Course tempcourse(CRN);
+
+
+
+
+(list.find(tempcourse)).addStudent(SID);
+
+
+
+
+
+} // addStudent()
+
+void GradeBook::enterScores(int CRN, const char *title,  short scores[600])
+{
+Course tempcourse(CRN);
+assignment temp(title, 0);
+int count=0;
+
+((list.find(tempcourse)).roster).changegrade( scores,temp,&count);
+
+
+
+
+} // enterScores()
+
+
+void GradeBook::listAssignment(int CRN, const char *title, int *count,
+  short scores[600])
+{
+
+Course tempcourse(CRN);
+assignment temp(title, 0);
+
+((list.find(tempcourse)).roster).checkgrade(scores,temp,count); //student->stundet.getgrade->assignemnt.getgrade
+
+
+
+
+
+} // listAssignment
+
+
+void GradeBook::listStudent(int CRN, const char SID[12], int *count,
+  short scores[600])
+{
+
+char temp[12]; 
+strcpy(temp,SID);
+Course tempcourse(CRN);
+int i=0;
+
+while(i< *count){
+
+
+scores[i]= (((list.find(tempcourse)).findStudent(temp)).assgrades[i]).getgrade();
+
+i++;
+}
+} // listStudent
+
+
+void GradeBook::removeStudent(int CRN, const char SID[12])
+{
+Course tempcourse(CRN);
+
+(list.find(tempcourse)).removeStudent(SID);
+
+
+
+} // removeStudent()
+
+
+void GradeBook::update(int CRN, const char *title, const char SID[12], int score)
+{
+Course tempcourse(CRN);
+char tempc[12]; 
+strcpy(tempc,SID);
+
+char temptitle[12]; 
+strcpy(temptitle,title);
+
+assignment temp(temptitle, score);
+
+(list.find(tempcourse)).updatestudent(tempc,temp);
+
+
+	
+	
+
+} // update()
+
+
+
+

@@ -1,0 +1,20 @@
+gradebook.out: gradebook.o GradebookRunner.o
+	g++ -Wall -ansi -g -o gradebook.out gradebook.o GradebookRunner.o 
+
+gradebook.o: gradebook.cpp gradebook.h course.o QuadraticProbing.h BinarySearchTree.h 
+	g++ -Wall -ansi -g -c gradebook.cpp
+
+course.o: course.cpp course.h BinarySearchTree.h assignment.h Student.h
+	g++ -Wall -ansi -g -c course.cpp
+
+Student.o: Student.cpp Student.h assignment.h
+	g++ -Wall -ansi -g -c Student.cpp
+
+assignment.o: assignment.cpp assignment.h
+	g++ -Wall -ansi -g -c assignment.cpp
+
+GradebookRunner.o: GradebookRunner.cpp CPUTimer.h GradebookRunner.h gradebook.h 
+	g++ -Wall -ansi -g -c GradebookRunner.cpp
+
+clean:
+	rm -f gradebook.out gradebook.o GradebookRunner.o course.o assignment.o Student.o

@@ -1,0 +1,56 @@
+//Brian Bentson Matt Sheehan
+
+template <class T>
+Deque < T >::Deque(int s)
+{
+topOfStack = NULL;
+} // Deque()
+
+
+template <class T>
+void Deque <T>::push(T & X)
+{
+ topOfStack = new ListNode( x, topOfStack );
+
+} // push()
+
+
+template <class T>
+T Deque <T>::pop()
+{
+ if( isEmpty( ) )
+                throw new Underflow( );
+
+            ListNode *oldTop = topOfStack;
+            topOfStack = topOfStack->next;
+            delete oldTop;
+
+
+} // pop()
+
+
+template <class T>
+void Deque <T>::inject(T &X)
+{
+ topOfStack = new ListNode( x, topOfStack );
+
+} // inject()
+
+
+template <class T>
+T Deque <T>::eject()
+{
+ if( isEmpty( ) )
+                throw new Underflow( );
+
+            ListNode *oldTop = topOfStack;
+            topOfStack = topOfStack->next;
+            delete oldTop;
+
+} // eject()
+
+template <class T>
+T Deque <T>::findKth(int pos)
+{
+} // findKth()
+
